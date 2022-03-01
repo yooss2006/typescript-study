@@ -28,3 +28,18 @@ var User = /** @class */ (function () {
     }
     return User;
 }());
+//any, unknown 타입
+var anyT;
+anyT = 10;
+var unknownT;
+unknownT = 20;
+// let x: string = anyT;  오류 없음
+// let y: string = unknownT; 오류 있음
+var 문자;
+문자 + 1;
+var 숫자;
+숫자 + 1;
+var 문숫자;
+// 문숫자+1; 오류 있음
+var 언노운;
+// 언노운+1; 오류 있음

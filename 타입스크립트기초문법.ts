@@ -46,3 +46,20 @@ class User {
     this.name = name;
   }
 }
+
+//any, unknown 타입
+let anyT: any;
+anyT = 10;
+let unknownT: unknown;
+unknownT = 20;
+// let x: string = anyT;  오류 없음
+// let y: string = unknownT; 오류 있음
+
+let 문자: string;
+문자 + 1;
+let 숫자: number;
+숫자 + 1;
+let 문숫자: string | number;
+// 문숫자+1; 오류 있음
+let 언노운: unknown;
+// 언노운+1; 오류 있음
