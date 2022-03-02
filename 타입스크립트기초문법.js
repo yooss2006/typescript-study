@@ -9,18 +9,7 @@ var 이름4 = {};
 //여러개의 타입이 들어올 수 있게하기
 var 이름5 = 10;
 var 이름6 = 10;
-var 이름7 = "kim";
-//함수에서의 타입지정
-//(매개변수는 이 안에서 지정한다. : 타입)
-//반환할 타입은 () :옆에서 정의한다.
-function 함수(x) {
-    return x * 2;
-}
 var john = [10, true];
-var objTest = {
-    name: "kim",
-    age: "13",
-};
 //클래스에서의 타입 지정
 var User = /** @class */ (function () {
     function User(name) {
